@@ -1,0 +1,131 @@
+.main,.section-two,.section-three{
+	background-image: linear-gradient(-180deg, #D5E2FF 0%, #FFFFFF 100%);
+	opacity: 100%;
+	display: inline-block;
+
+}
+ body {
+    overflow-x:hidden;  
+}
+
+.intro{
+	margin-top: 5%;
+	font-family: Helvetica;
+	font-size: 28px;
+	color: #121C25;
+	letter-spacing: 0;
+	text-align: center;
+
+}
+
+@-webkit-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-moz-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-o-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+
+.cloud1{
+	position: absolute;
+	opacity: 0,8;
+	-webkit-animation: moveclouds 15s linear infinite;
+	-moz-animation: moveclouds 15s linear infinite;
+	-o-animation: moveclouds 15s linear infinite;
+}
+.cloud2{
+	position: absolute;
+	opacity: 1;
+	left: 200px; top: 30px;
+	-webkit-animation: moveclouds 25s linear infinite;
+	-moz-animation: moveclouds 25s linear infinite;
+	-o-animation: moveclouds 25s linear infinite;
+}
+
+.cloud3{
+	position: absolute;
+	opacity: 0.7;
+	left: -250px; top: 200px;
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+.cloud4{
+	position: absolute;
+	left: 470px; top: 250px;
+	opacity: 0.7;
+	-webkit-animation: moveclouds 18s linear infinite;
+	-moz-animation: moveclouds 18s linear infinite;
+	-o-animation: moveclouds 18s linear infinite;
+
+}
+
+.cloud5{
+	position: absolute;
+	left: -150px; top: 150px;
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+
+}
+
+.numbers{
+	font-family: Helvetica;
+	font-size: 28px;
+	color: #121C25;
+
+
+}
+.p-2{
+	flex-wrap: wrap;
+}
+
+.counter{
+	max-width:40%;
+	margin: 2% auto;
+}
+
+.sliderImage{
+	margin-top: 3%;
+}
+@media(max-width: 759px){
+
+	#textarea{
+		order: 2;
+	}
+	#imageArea{
+		order: 1;
+	}
+}
+.content{
+	margin:15% auto;
+}
+
+#imageArea{
+	margin-top: 3%;
+	position: relative;
+	left: 10px;
+}
+
+.content2{
+	margin:15% auto;
+}
+#imageArea2{
+	margin-top: 3%;
+	position: relative;
+	right: 15px;
+}
+
+.section-four{
+	margin: 40px 0px 30px 0px;
+	background: #F4F4F4;
+}
+.headerSlide{
+	padding: 8% 0 0 10%;
+	
+}
